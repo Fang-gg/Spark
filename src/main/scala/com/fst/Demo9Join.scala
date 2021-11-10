@@ -12,7 +12,7 @@ object Demo9Join {
 
     val conf: SparkConf = new SparkConf()
       .setMaster("local")
-      .setAppName("Demo8Union")
+      .setAppName("Demo9Join")
 
     val sc: SparkContext = new SparkContext(conf)
 
