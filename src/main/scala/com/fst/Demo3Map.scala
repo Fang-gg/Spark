@@ -39,7 +39,6 @@ object Demo3Map {
     //foreach也是一个操作算子 可以触发任务
     i2RDD.foreach(println)
 
-    while(true){}
 
 
   }
