@@ -13,6 +13,9 @@ object Demo1WordCount {
     conf.setAppName("Demo1WordCount")
 
     // 设置运行模式为Local模式  即在IDEA本地运行
+    // local:一个并行度
+    // local[2]: 两个并行度
+    // local[*]: 有多少就用多少
     conf.setMaster("local")
 
     // Spark的上下文环境，相当于是Spark的入口
